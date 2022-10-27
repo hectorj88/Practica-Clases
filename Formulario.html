@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Inscrpción</h1>
+    <form action="">
+        <label for="nombre">
+            <span>Ingrese su nombre completo:</span>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+        </label><br><br>
+        <label for="fecha-nacimiento">
+            <span>Fecha de Nacimiento:</span>
+            <input type="date" id="fecha-nacimiento" placeholder="Fecha de Nacimiento">
+        </label><br><br>
+        <label for="clave">
+            <span>Contraseña:</span>
+            <input type="password" id="clave" placeholder="tu contraseña">
+        </label><br><br>
+        <label for="correo">
+            <span>Ingrese su correo:</span>
+            <input type="email" id="correo" placeholder="correo electrónico">
+        </label><br><br>
+        <fieldset>
+            <legend>Seleccione el perfil que mejor maneja</legend>
+            <div>
+                <input type="radio" id="Frontend" name="perfil" value="Frontend" checked>
+                <label for="Frontend">Frontend</label>
+            </div>
+            <div>
+                <input type="radio" id="Backend" name="perfil" value="Backend">
+                <label for="Backend">Backend</label>
+            </div>
+            <div>
+                <input type="radio" id="Fullstack" name="perfil" value="Fullstack">
+                <label for="Fullstack">Fullstack</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Seleccione el perfil que mejor maneja</legend>
+            <div>
+                <input type="range" id="Frontend" name="perfil" value="Frontend" checked>
+                <label for="Frontend">Frontend</label>
+            </div>
+            <div>
+                <input type="range" id="Backend" name="perfil" value="Backend">
+                <label for="Backend">Backend</label>
+            </div>
+            <div>
+                <input type="range" id="Fullstack" name="perfil" value="Fullstack">
+                <label for="Fullstack">Fullstack</label>
+            </div>
+        </fieldset>
+        <input type="submit" value="">
+    </form>
+</body>
+</html>
