@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>Blog Personal</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="main-nav"> 
+                <ul>
+                    <li class="main-nav__item"><a href="index.html" class="enlace">Inicio</a> </li>
+                    <li class="main-nav__item"><a href="html5.html" class="enlace">HTML5</a> </li>
+                    <li class="main-nav__item"><a href="css3.html" class="enlace">CSS3</a> </li>
+                    <li class="main-nav__item"><a href="javascript.html" class="enlace">JavaScript</a> </li>
+                    <li class="main-nav__item"><a href="contacto.html" class="enlace">Contacto</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <h1>Formulario de Inscripción</h1>
+        
+        <div class="cuerpo">
+        <section id="contenido">
+            <h2>Dejanos Tus Datos</h2>
+            <form action="">
+                <label for="nombre">
+                    <span>Ingrese su nombre completo:</span>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                </label><br><br>
+                <label for="fecha-nacimiento">
+                    <span>Fecha de Nacimiento:</span>
+                    <input type="date" id="fecha-nacimiento" placeholder="fecha nacimiento">
+                </label><br><br>
+                <!--<label for="clave">
+                    <span>Contraseña:</span>
+                    <input type="password" id="clave" placeholder="Tu contraseña">
+                </label><br><br>-->
+                <label for="correo">
+                    <span>Ingrese su correo:</span>
+                    <input type="email" id="correo" placeholder="correo electrónico">
+                </label><br><br>
+                <fieldset>
+                    <legend>Seleccione el perfil que mejor maneja</legend>
+                    <div>
+                        <input type="radio" id="Frontend" name="Perfil" value="Frontend" checked>
+                        <label for="Frontend">Frontend</label>
+                    </div>
+        
+                    <div>
+                        <input type="radio" id="Backend" name="Perfil" value="Backend">
+                        <label for="Backend">Backend</label>
+                    </div>
+        
+                    <div>
+                        <input type="radio" id="Fullstack" name="Perfil" value="FullStack" >
+                        <label for="Fullstack">Fullstack</label>
+                    </div>
+        
+                </fieldset>
+                <fieldset>
+        
+                    <legend>Seleccione el nivel de conocimiento de cada perfil:</legend>
+                    <div>
+                  Nivel: Mínimo     <input type="range" id="Frontend_nivel" name="Frontend" value="Frontend"
+                             checked>
+                      <label for="Frontend">Máximo - HTML</label>
+                    </div>          
+        
+                    <div>
+        
+                    Nivel: Mínimo   <input type="range" id="Backend_nivel" name="Backend" value="Backend">
+                      <label for="Backend">Máximo - CSS</label>
+                    </div>
+        
+                  
+        
+                    <div>
+                    Nivel: Mínimo  <input type="range" id="FullStack_nivel" name="FullStack" value="FullStack">
+                      <label for="FullStack">Máximo - JavaScript</label>
+                    </div>
+        
+                  </fieldset>
+                  <input type="submit" value="Enviar"><input type="submit" value="Limpiar">
+        
+            </form>
+        </section>
+
+        <aside>
+            <h2>¿Que buscas?</h2>
+                <form action="">
+                <input type="text"/>
+                <input type="submit" value="Buscar"/>
+            </form>
+        </aside>
+        </div>
+        
+        <footer>
+            <p>Hector Rosas &copy; 2022</p>
+        </footer> 
+
+
+    </main>
+    
+</body>
+</html>

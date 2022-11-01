@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="main-nav"> 
+                <ul>
+                    <li class="main-nav__item"><a href="index.html" class="enlace">Inicio</a> </li>
+                    <li class="main-nav__item"><a href="html5.html" class="enlace">HTML5</a> </li>
+                    <li class="main-nav__item"><a href="css3.html" class="enlace">CSS3</a> </li>
+                    <li class="main-nav__item"><a href="javascript.html" class="enlace">JavaScript</a> </li>
+                    <li class="main-nav__item"><a href="contacto.html" class="enlace">Contacto</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <h1>CSS3 <img id="img1" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iqvmedia.es%2Fassets%2Fimages%2Flogos%2Flogo_css3.png&f=1&nofb=1&ipt=78c76b4c03357ba35339113c6ba5b4161b610c8fb1a02f0f2135e97ee4454339&ipo=images" alt="Imagen CSS3"></h1>
+        <div class="cuerpo">
+        <section id="contenido">
+            <h2>Antes del CSS</h2>
+            <article class="article">
+                <p>Antes de que existiera el CSS las declaraciones de estilos se incluían en el propio HTML, en línea o similar, es decir, cada elemento debía especificar su propio tamaño, color, etc. Esto daba como resultando mucho código y muy poco optimizado, complicando mucho cualquier cambio.</p>
+                <P>Las hojas externas ya existían, pero solían ser propiedad de cada navegador, que era quien decidía cómo mostrar la página web.</P>
+            </article>
+            <h2>CSS1</h2>
+            <article class="article">
+                <p>Fue el primer nivel propuesto oficialmente. Servía para lo básico: color de texto, márgenes, bordes, tipografías… Para hacerse una idea basta recordar cómo eran las páginas por aquel entonces.</p>
+                <p>Pero lo más importante era que todos los estilos se podían reunir en un documento externo al HTML, separando la estructura de lo visual, y declarando la regla una sola vez, se podía aplicar a varios elementos. Ahora no lo parece, pero fue un gran paso a nivel de optimización.</p>
+            </article>
+            <h2>CSS2</h2>
+            <article class="article">
+                <p>W3C publica la nueva recomendación CSS en 1998. Como decimos, cada nivel se construye sobre el anterior, por lo que al CSS1 se suman propiedades como los posicionamientos absolutos y relativos, z-index… Esto fue toda una revolución, ya que permitía colocar contenedores e imágenes allí donde queríamos. La revolución visual se puede apreciar en cómo cambió, por ejemplo, la página de Apple:</p>
+                <p>Se puede ver como el CSS2 convierte a las páginas web en algo más que un contenedor de información. El diseño gráfico comienza a tener peso en el mundo web.</p>
+                <p>En este nivel se incluyen, también, las omnipresentes sombras de los 90 y las tablas. También entraron en juego los estilos específicos para diferentes medios. Por ejemplo, podíamos dar un estilo diferente a la página en pantalla a como se vería al imprimir.</p>
+                <p>CSS2 tuvo una revisión por problemas de funcionalidad y se añadió alguna nueva especificación. Fue propuesta oficialmente como CSS2.1 en 2011.</p>
+            </article>
+            <h2>CSS3</h2>
+            <article class="article">
+                <p>CSS3 plantea una ruptura con las especificaciones anteriores, no tanto por su contenido sino por su forma. CSS3 se plantea como una suma de módulos independientes que van sumando funcionalidades al lenguaje CSS. Esta presentación modular permite que CSS3 siga evolucionando a diferentes ritmos y presentando nuevas soluciones a los problemas y carencias detectadas. Su historia comienza en 1999, aunque su publicación por parte de W3C es bastante posterio</p>
+                <p>Los cambios visuales ya no son tan llamativos como antes, la diferencia con niveles anteriores es más bien técnica. El protagonismo gráfico ya no está tan delimitado como en CSS1, por lo que el aspecto lo marca la tendencia del momento.</p>
+                <p>Es por ello que las aportaciones de este nivel son múltiples. Entre ellas me gustaría resaltar flexbox y CSS grid, que nos salvaron de la pesadilla de los elementos flotantes y posiciones absolutas. No se me entienda mal, siguen siendo dos propiedades muy válidas, pero antes nos veíamos forzados a usarlas para lo que no estaban preparadas.</p>
+                <p>Otras innovaciones reseñables del nivel 3 son las media queries, que hacen posible el diseño responsive y sin las que no podemos entender el concepto Mobile First.</p>
+            </article>
+        </section>
+        <aside>
+            <h2>¿Que buscas?</h2>
+            <form action="">
+                <input type="text"/>
+                <input type="submit" value="Buscar"/>
+            </form>
+        </aside>
+        </div>
+        <footer>
+            <p>Hector Rosas &copy; 2022</p>
+        </footer> 
+    </main>
+    
+</body>
+</html>

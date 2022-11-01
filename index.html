@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo Web</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>Blog Personal</title>
 </head>
 <body>
     <main>
         <header>
-            <nav></nav>
+            <nav class="main-nav"> 
+                <ul>
+                    <!--<li class="main-nav__item"><a href="index.html" style="color: #fff">Inicio</a> </li>-->
+                    <li class="main-nav__item"><a href="index.html" class="enlace">Inicio</a> </li>
+                    <li class="main-nav__item"><a href="html5.html" class="enlace">HTML5</a> </li>
+                    <li class="main-nav__item"><a href="css3.html" class="enlace">CSS3</a> </li>
+                    <li class="main-nav__item"><a href="javascript.html" class="enlace">JavaScript</a> </li>
+                    <li class="main-nav__item"><a href="contacto.html" class="enlace">Contacto</a> </li>
+                </ul>
+            </nav>
         </header>
-        <h1>Perfiles de Desarrolladores</h1>
-        <ul>
-            <li>Front End</li>
-            <ol>
-                <li>HTML</li>
-                <li>CSS3</li>
-                <li>java Script</li>
-            </ol>
-        </ul>  
-        <ul>
-            <li>Back End</li>
-            <ol>
-                <li>Python</li>
-                <li>Java</li>
-                <li>java Script</li>
-            </ol>
-        </ul>  
-        <ul>
-            <li>Full Stack</li>
-            <ol>
-                <li>Data Base</li>
-                <li>Cloud</li>
-                <li>UI/UX Tool</li>
-            </ol>
-        </ul>
+        <h1>Inicio</h1>
+        <div class="cuerpo">
+        <section id="contenido">
+            <ul>
+                <li>Nombre y apellido: Hector Rosas</li>
+                <!--<ol>
+                    <li>HTML</li>
+                    <li>CSS3</li>
+                    <li>java Script</li>
+                </ol>-->
+            </ul>  
+            <ul>
+                <li>Editor de Codigos: Visual Studio Code</li>
+                <!--<ol>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>java Script</li>
+                </ol>>-->
+            </ul>  
+            <ul>
+                <li>Enlace Perfil GitHut: </li>
+                <!--<ol>
+                    <li>Data Base</li>
+                    <li>Cloud</li>
+                    <li>UI/UX Tool</li>
+                </ol>-->
+            </ul>
+        </section>
+        <aside>
+            <h2>¿Que buscas?</h2>
+            <form action="">
+                <input type="text"/>
+                <input type="submit" value="Buscar"/>
+            </form>
+        </aside>
+        </div>
         <footer>
-            <p>Esto es el Footer</p>
+            <p>Hector Rosas &copy; 2022</p>
         </footer> 
     </main>
     
