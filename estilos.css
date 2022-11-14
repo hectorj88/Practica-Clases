@@ -16,6 +16,12 @@ main{
     margin: 0px auto;
 }
 
+nav{
+    background: #000;
+    height: 50px;
+    border-bottom: 5px solid #fff;
+}
+
 h1{
     background: #039ee6;
     height: 200px;
@@ -35,12 +41,6 @@ h1{
     justify-content: center;
     width: 80px;
     height: 80px
-}
-
-nav{
-    background: #000;
-    height: 50px;
-    border-bottom: 5px solid #fff;
 }
 
 nav ul li{
@@ -114,4 +114,12 @@ footer{
     margin-bottom: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid #000;
+}
+
+#texto2{
+    width: 80px;
+}
+
+#texto3{
+    width: 80px;
 }

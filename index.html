@@ -50,10 +50,21 @@
             </ul>
         </section>
         <aside>
-            <h2>¿Que buscas?</h2>
-            <form action="">
-                <input type="text"/>
-                <input type="submit" value="Buscar"/>
+            <h2>Comprueba si el texto es palíndromo</h2>
+            <form action="" aria-autocomplete="on">
+                <input name="texto" type="text" id="texto"/>
+                <input type="submit" onclick="esPalindromo(texto)" value="Comprobar"/>
+            </form>
+            <h2>Verificar cual es el mayor entre 2 números</h2>
+            <form action="" aria-autocomplete="on">
+                <input name="texto2" type="text" id="texto2"/>
+                <input name="texto3" type="text" id="texto3"/>
+                <input type="submit" onclick="numeroMayor(texto2,texto3)" value="Comprobar"/>
+            </form>
+            <h2>¿Cuántas vocales hay</h2>
+            <form action="" aria-autocomplete="on">
+                <input name="texto4" type="text" id="texto4"/>
+                <input type="submit" onclick="vocaless(texto4)" value="Comprobar"/>
             </form>
         </aside>
         </div>
@@ -61,6 +72,7 @@
             <p>Hector Rosas &copy; 2022</p>
         </footer> 
     </main>
-    
+   <script src="/js/ejecutables.js"></script> 
+   <!--<element onunload="actualizarPagina()"></element>-->
 </body>
 </html>
